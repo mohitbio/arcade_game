@@ -6,5 +6,10 @@ In this game you have a Player and Enemies (Bugs). The goal of the player is to 
 Instructions
 =============
 
-Use Arrow keys to move your player
-Press 'SpaceBar' to reset
+- Use Arrow keys to move your player
+- Press 'SpaceBar' to reset
+
+Demo
+======
+
+- To play the game https://mohitbio.github.io/arcade_game/
