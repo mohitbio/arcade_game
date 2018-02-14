@@ -99,13 +99,16 @@ Player.prototype.handleInput = function(key) {
 
 Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
-    ctx.fillText('Score: ' + this.score, 350, 500);
-    ctx.fillText('High Score: ' + highscore, 150, 90);
+    ctx.fillText('Score: ' + this.score, 410, 550);
+    ctx.fillText('High Score: ' + highscore, 20, 90);
+    ctx.font = '24px Times New Roman';
+    ctx.fillStyle = 'black';
     if(this.score > highscore){
         highscore += 1;
     }
     if (this.life === 0) {
-        ctx.fillText('Game Over', 150, 350);
+        ctx.fillStyle = 'red';
+        ctx.fillText('Game Over', 200, 300);
     }
 };
 

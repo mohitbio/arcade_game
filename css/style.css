@@ -1,3 +1,15 @@
 body {
     text-align: center;
 }
+
+.instructions {
+    margin: auto;
+    color: red;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: blue;
+}
